@@ -14,6 +14,14 @@ export const EXPERIENCES = [
     description: `Developed a CRNN model for accurate text recognition and transcription from images in diverse natural scenes. Conducted evaluations using accuracy metrics, ensuring the model’s effectiveness in text recognition. Implemented state-of-the-art models, like Puigcerver and FLOR, to significantly enhance recognition accuracy`,
     technologies: ["Numpy", "Tensorflow", "Keras", "Pandas"],
   },
+   {
+    year: "Nov 2023 - Mar 2024",
+    role: "Intern",
+    company: "Tech Simulation",
+    description: `Assisted in the development, testing, and maintenance of web applications using the MERN stack. Developed a full-stack web application enabling multiplayer tic-tac-toe gameplay with realtime chat feature. Implemented secure user authentication and authorization system using react and real-time chat functionality with
+features like message history, reacting to messages with emojis during gameplay using Stream API.`,
+    technologies: ["ReactJS", "NodeJS", "ExpressJS", "StreamAPI"],
+  },
   // {
   //   year: "2022 - 2023",
   //   role: "Frontend Developer",
