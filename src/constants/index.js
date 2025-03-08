@@ -2,16 +2,16 @@ import project1 from "../assets/projects/project-1.jpeg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 
-export const HERO_CONTENT = `I am an enthusiastic developer with a passion for problem-solving and creating efficient, user-friendly web applications. With experience in building projects using React, Tailwind CSS, and Framer Motion, I specialize in crafting dynamic front-end interfaces. My back-end expertise includes working on machine learning projects and leveraging technologies like Python, NumPy, and Pandas. I strive to apply my skills to deliver impactful solutions that enhance user experiences and drive innovation.`;
+export const HERO_CONTENT = `I am an enthusiastic developer with a passion for problem-solving and creating efficient, user-friendly web applications. With experience in building projects using modern technologies like MERN stack, I specialize in crafting dynamic web interfaces. My other expertise includes working on machine learning projects and leveraging technologies like Python, NumPy, and Pandas. I strive to apply my skills to deliver impactful solutions that enhance user experiences and drive innovation.`;
 
-export const ABOUT_TEXT = `I am a motivated and skilled developer with a strong foundation in building efficient and user-centric web applications. My experience includes working with modern technologies such as React, Express, Framer Motion, Tailwind CSS, and Node.js. I have honed my skills through hands-on projects, including developing a Tic-Tac-toe game with real-time chat application and a dynamic portfolio website. My journey in development reflects a commitment to learning and tackling challenges with a problem-solving mindset. I thrive in collaborative settings and take pride in delivering impactful solutions. Beyond coding, I enjoy exploring emerging technologies and continuously enhancing my expertise.`;
+export const ABOUT_TEXT = `I am a motivated and skilled developer with a strong foundation in building efficient and user-centric web applications. My experience includes working with modern technologies such as C++, React, Express, and Node.js. I have honed my skills through hands-on projects, including developing a Social Place Sharing application and a dynamic portfolio website. My journey in development reflects a commitment to learning and tackling challenges with a problem-solving mindset. I thrive in collaborative settings and take pride in delivering impactful solutions. Beyond coding, I enjoy exploring emerging technologies and continuously enhancing my expertise.`;
 
 export const EXPERIENCES = [
   {
     year: "Jun 2023 - Jul 2023",
     role: "Intern",
     company: "Skillvertex",
-    description: `Designed and implemented a machine learning model to classify emails as spam or not spam. Preprocessed large datasets by tokenizing, removing stopwords, and vectorizing text data. Built an ensemble model combining multiple sequential models, improving classification accuracy`,
+    description: `Developed a CRNN model for accurate text recognition and transcription from images in diverse natural scenes. Conducted evaluations using accuracy metrics, ensuring the model’s effectiveness in text recognition. Implemented state-of-the-art models, like Puigcerver and FLOR, to significantly enhance recognition accuracy`,
     technologies: ["Numpy", "Tensorflow", "Keras", "Pandas"],
   },
   // {
@@ -38,6 +38,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  
+  {
+    title: "Social Place Sharing Application",
+    image: project3,
+    description:
+      " Built a full-stack MERN application for users to share places with images and locations and explore shared places. Implemented core CRUD operations: creating, retrieving, updating and deletion of user and place data. Integrated authentication and authorization mechanisms to ensure secure user access and data protection. Optimized backend performance by designing RESTful APIs using Node.js, Express, and MongoDB.",
+    technologies: ["ReactJS", "ExpressJS", "NodeJS", "MongoDB"],
+  },
   {
     title: "Cervical Spine Fracture Detection",
     image: project1,
@@ -52,13 +60,7 @@ export const PROJECTS = [
       " Developed and implemented a CRNN model, to effectively recognize and transcribe text in diverse scenes. Conducted evaluations of the model’s performance, using metrics such as WER and CER to evaluate its effectiveness in recognizing text. Demonstrated proficiency in implementing state-of-the-art models like Puigcerver and FLOR to significantly boost the accuracy.",
     technologies: ["Numpy", "Tensorflow", "Keras", "Pandas", "Python"],
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "framer-motion"],
-  },
+  
   // {
   //   title: "Blogging Platform",
   //   image: project4,
